@@ -1,5 +1,5 @@
 {
-  "title": "vs. Hex - V-Slice Port [v1.1.0]",
+  "title": "vs. Hex - V-Slice Port [v1.1.1]",
   "description": "",
   "author": "Dipazio",
   "contributors": [
@@ -10,6 +10,6 @@
     }
   ],
   "api_version": "0.8.1",
-  "mod_version": "1.1.0",
+  "mod_version": "1.1.1",
   "license": "Apache-2.0"
 }
