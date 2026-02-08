@@ -1,0 +1,177 @@
+{
+    "version": "1.0.0",
+
+    "backdrop": {
+        "type": "solid",
+        "fadeTime": 0.0,
+        "color": "#FF000000"
+    },
+
+    "music": {
+        "asset": "hex_givinALittle",
+        "fadeTime": 1.0,
+        "looped": false
+    },
+
+    "outro": {
+        "type": "fade",
+        "fadeTime": 1.0
+    },
+
+    "dialogue": [
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "gf",
+            "text": ["Geez... That was intense. Have you seen his face?"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["Yea, it was very uh....", "'ballistic'"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "gf",
+            "text": ["At least now we can go to the park like we originally intended!"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["Mhm"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "gf",
+            "text": ["You know, I really had fun during all those weeks spent with you."]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["I'm glad you did..."]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "gf",
+            "text": ["Makes me wonder who will be next to challenge you pff."]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["Hopefully no one anytime soon, I'm tired..."]
+        },
+        {
+            "speaker": "hex-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "mist",
+            "text": ["Hello!"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["Hmm?"]
+        },
+        {
+            "speaker": "hex-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "mist",
+            "text": ["Are you perhaps up for a game or two?"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["Uhh... sorry dude, I'm not really good at basketball."]
+        },
+        {
+            "speaker": "hex-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "mist",
+            "text": ["Oh, no no, I meant like, you know, the microphone?"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["Oh! Maybe then- ", "Wait a minute."]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["Are you another guy that's not cool with me dating her?"]
+        },
+        {
+            "speaker": "hex-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "mist",
+            "text": ["Huh? No-", ", where did that come from?"]
+        },
+        {
+            "speaker": "hex-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["I just thought it would be fun to use my microphone after a long time!"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "gf",
+            "text": ["Hmm... he does seem chill, what do you think?"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["If it's gonna be just for fun then I'm up for it!"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["Are you ready then... uh...", " what's your name?"]
+        },
+        {
+            "speaker": "hex-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "hex",
+            "text": ["Hex! I'm always ready!"]
+        },
+        {
+            "speaker": "hex_player-tag",
+            "boxAnimation": "idle",
+            "box": "hex",
+            "speakerAnimation": "bf",
+            "text": ["Alright Hex, let's funk!"]
+        }
+    ]
+}

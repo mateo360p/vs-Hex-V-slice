@@ -1,0 +1,52 @@
+import flixel.FlxG;
+import funkin.play.stage.Stage;
+import funkin.play.PlayState;
+import funkin.graphics.FunkinSprite;
+import flixel.math.FlxMath;
+import flixel.tweens.misc.VarTween;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import flixel.group.FlxTypedSpriteGroup;
+
+class HexCutsceneSprite extends FunkinSprite {
+    var totalFrames:Int = 0;
+    var curFrame:Int = 0;
+
+    function new()
+    {
+        super();
+        zIndex = 100;
+    }
+
+    public function setUpSprite(cutscene:String) {
+        if (cutscene == null || cutscene == "") {
+            trace("NULL sprite on Hex Cutscene");
+            return;
+        }
+        loadSparrow('hexCutscenes/default/' + cutscene);
+
+        totalFrames = this.numFrames; // unused?
+        this.frame = curFrame;
+
+		setGraphicSize(0, Std.int(FlxG.height));
+		scrollFactor.set();
+		screenCenter();
+        alpha = 1; // TODO: maybe add a tween to make this more fancy?
+    }
+
+    public function setSpriteFrame() {
+        if (frames.frames.length < 1) return;
+        curFrame = FlxMath.bound(curFrame, 0, frames.frames.length - 1);
+        this.frame = this.frames.frames[curFrame];
+    }
+
+    public function advanceFrame() {
+        curFrame++;
+        setSpriteFrame();
+    }
+
+    public function restartFrame() {
+        curFrame = 0;
+        setSpriteFrame();
+    }
+}

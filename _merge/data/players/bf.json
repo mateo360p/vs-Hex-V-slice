@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/ownedChars/-",
+		"value": "bf-hex-night"
+	},
+	{
+		"op": "add",
+		"path": "/ownedChars/-",
+		"value": "bf-hex-sunset"
+	},
+	{
+		"op": "add",
+		"path": "/ownedChars/-",
+		"value": "bf-hex-glitcher"
+	}
+]

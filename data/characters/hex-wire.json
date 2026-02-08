@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "name": "Hex (Wire)",
+  "assetPath": "characters/hexmod/hex_viral",
+  "singTime": 8.0,
+  "healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"id": "hex-infected",
+		"flipX": false,
+		"isPixel": false,
+		"scale": 1
+	},
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Hex crazy idle",
+      "offsets": [3, 14]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Hex crazy left",
+      "offsets": [151, 83]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Hex crazy down",
+      "offsets": [61, -44]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Hex crazy up",
+      "offsets": [80, 130]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Hex crazy right",
+      "offsets": [19, -5]
+    }
+  ]
+}

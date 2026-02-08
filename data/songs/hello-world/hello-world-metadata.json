@@ -1,0 +1,23 @@
+{
+	"timeFormat": "ms",
+	"artist": "YingYang48",
+	"charter": "Unknown",
+	"playData": {
+		"stage": "hexStage",
+		"noteStyle": "funkin",
+		"ratings": {
+			"easy": 2,
+			"hard": 3,
+			"normal": 2
+		},
+		"album": "hextravaganza",
+		"difficulties": ["easy", "normal", "hard"],
+		"characters": {"girlfriend": "gf-hex-night", "opponent": "hex-night", "player": "bf-hex-night"}
+	},
+	"songName": "Hello World!",
+	"timeChanges": [
+		{"t": 0, "bpm": 150}
+	],
+	"generatedBy": "Psych Engine v1.0.3 - Chart Editor V-Slice Exporter",
+	"version": "2.2.3"
+}

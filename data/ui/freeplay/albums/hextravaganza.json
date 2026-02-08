@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "HEXTRAVAGANZA ALBUM",
+  "artists": [
+    "YingYang48"
+  ],
+  "albumArtAsset": "freeplay/albumRoll/hextravaganza_album",
+  "albumTitleAsset": "freeplay/albumRoll/hextravaganza-text"
+}

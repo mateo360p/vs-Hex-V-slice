@@ -1,0 +1,23 @@
+{
+    "version": "1.0.0",
+    "name": "Hex Tag (vs. Hex)",
+    "assetPath": "dialogue/hex/hex",
+    "flipX": false,
+    "isPixel": false,
+    "scale": 0.7,
+    "offsets": [-330, 20],
+    "animations": [
+        {
+            "name": "hex",
+            "prefix": "hex",
+            "offsets": [0, 0],
+            "frameRate": 0
+        },
+        {
+            "name": "mist",
+            "prefix": "mist",
+            "offsets": [0, 0],
+            "frameRate": 0
+        }
+    ]
+}

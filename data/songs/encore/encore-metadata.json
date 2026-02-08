@@ -1,0 +1,23 @@
+{
+	"timeFormat": "ms",
+	"artist": "YingYang48",
+	"charter": "Unknown",
+	"playData": {
+		"stage": "hexStage",
+		"noteStyle": "funkin",
+		"ratings": {
+			"easy": 3,
+			"hard": 5,
+			"normal": 4
+		},
+		"album": "hextravaganza",
+		"difficulties": ["easy", "normal", "hard"],
+		"characters": {"girlfriend": "gf", "opponent": "hex", "player": "bf"}
+	},
+	"songName": "Encore",
+	"timeChanges": [
+		{"t": 0, "bpm": 116}
+	],
+	"generatedBy": "Psych Engine v1.0.3 - Chart Editor V-Slice Exporter",
+	"version": "2.2.3"
+}

@@ -1,0 +1,87 @@
+import flixel.FlxG;
+import funkin.play.stage.Stage;
+import funkin.play.PlayState;
+import funkin.graphics.FunkinSprite;
+import flixel.math.FlxMath;
+import flixel.tweens.misc.VarTween;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import funkin.play.cutscene.dialogue.Conversation;
+import funkin.audio.FunkinSound;
+import funkin.modding.base.ScriptedFunkinSprite;
+
+class GlitcherConversation extends Conversation {
+    var gfSound:FunkinSound;
+    var hexSound:FunkinSound;
+    var bfSound:FunkinSound;
+
+    var funkyImage:ScriptedFunkinSprite;
+    var imagesChange:Array<Int> = [5, 6, 8, 9, 10, 14, 16, 19, 23, 27, 29, 31, 32];
+
+    function new() {
+        super('glitcher');
+    }
+
+    override function onCreate(event:ScriptEvent):Void {
+        super.onCreate(event);
+
+        funkyImage = ScriptedFunkinSprite.init('HexCutsceneSprite');
+        funkyImage?.scriptCall("setUpSprite", ['glitcher']);
+        if (funkyImage != null) add(funkyImage); // just in case ig
+        refresh();
+
+        gfSound = FunkinSound.load(Paths.sound('hex/gf'), 0.6);
+        hexSound = FunkinSound.load(Paths.sound('hex/hx'), 0.6);
+        bfSound = FunkinSound.load(Paths.sound('hex/bf'), 0.6);
+    }
+
+    override function onDialogueLine(event:DialogueScriptEvent):Void {
+        super.onDialogueLine(event);
+
+        FunkinSound.playOnce(Paths.sound("clickText"), 0.6);
+        if (imagesChange.contains(currentDialogueEntry)) funkyImage?.scriptCall("advanceFrame");
+
+        if (PlayState.instance.currentConversation.music == null) return;
+
+        if (currentDialogueEntry == 9) {
+            FunkinSound.playOnce(Paths.sound('hex/bzzt'), 0.6);
+            FlxTween.tween(PlayState.instance.currentConversation.music, {volume: 0.0}, 2, {ease: FlxEase.linear});
+        }
+        else if (currentDialogueEntry == 10) {
+            FlxTween.completeTweensOf(PlayState.instance.currentConversation.music); // FunkinCrew, fkin fadeIn func exists ON EVERY FLX SOUND
+            PlayState.instance.currentConversation.music = FunkinSound.load(Paths.music('hex_hectic'), 0.0, true, true, true);
+            FlxTween.tween(PlayState.instance.currentConversation.music, {volume: 1.0}, 2, {ease: FlxEase.linear});	
+        }
+    }
+
+    override function startConversation():Void {
+        super.startConversation();
+        funkyImage?.scriptCall("restartFrame");
+    }
+
+    override function playSpeakerAnimation():Void {
+        super.playSpeakerAnimation();
+        var curAnim:String = currentSpeaker.animation.curAnim.name;
+        var dummySound;
+        switch(curAnim) {
+            case "hex", "mist":
+                dummySound = hexSound;
+            case "gf":
+                dummySound = gfSound;
+            default: // bf or whatever
+                dummySound = bfSound;
+        }
+
+        if (dummySound == null) return;
+        if(!currentDialogueBox.textDisplay.sounds.contains(dummySound)) currentDialogueBox.textDisplay.sounds = [dummySound];
+    }
+
+    override function onDestroy(event:ScriptEvent):Void {
+        if (funkyImage != null) {
+            funkyImage.destroy();
+            remove(funkyImage);
+            funkyImage = null;
+        }
+        super.onDestroy(event);
+    }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="glitcher.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="glitcher0000" x="0" y="2168" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0001" x="0" y="1084" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0002" x="1924" y="4336" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0003" x="3848" y="1084" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0004" x="1924" y="2168" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0005" x="3848" y="2168" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0006" x="0" y="3252" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0007" x="3848" y="0" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0008" x="1924" y="3252" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0009" x="1924" y="1084" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0010" x="0" y="4336" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0011" x="3848" y="3252" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0012" x="0" y="0" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="glitcher0013" x="1924" y="0" width="1924" height="1084" frameX="2" frameY="2" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

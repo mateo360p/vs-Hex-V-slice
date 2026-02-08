@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hex-glitcherPixel.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="38" y="0" width="37" height="39" frameX="1" frameY="0" frameWidth="35" frameHeight="39"/>
+	<SubTexture name="confirm0000" x="0" y="0" width="38" height="40" frameX="1" frameY="-1" frameWidth="35" frameHeight="39"/>
+	<SubTexture name="confirm0001" x="0" y="40" width="36" height="41" frameX="1" frameY="2" frameWidth="35" frameHeight="39"/>
+	<SubTexture name="confirm0002" x="38" y="39" width="37" height="38" frameX="1" frameY="-1" frameWidth="35" frameHeight="39"/>
+	<SubTexture name="confirm-hold0000" x="38" y="39" width="37" height="38" frameX="1" frameY="-1" frameWidth="35" frameHeight="39"/>
+</TextureAtlas>
