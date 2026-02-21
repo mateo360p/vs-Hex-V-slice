@@ -3,6 +3,7 @@
 	"artist": "YingYang48",
 	"charter": "Unknown",
 	"playData": {
+		"songVariations": ["erect"],
 		"stage": "hexStage",
 		"noteStyle": "funkin",
 		"ratings": {

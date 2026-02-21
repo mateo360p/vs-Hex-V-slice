@@ -55,7 +55,11 @@ class HexGlitcherSong extends Song {
 
         if (PlayState.instance == null) return;
 
-        if (event.step == 576 || event.step == 828 || event.step == 1087 || event.step == 1332)
+        if (PlayState.instance.currentVariation == 'erect') {
+            if (event.step == 672 || event.step == 928 || event.step == 1184 || event.step == 1440 || event.step == 1696 || event.step == 1824)
+                PlayState.instance.currentStage?.scriptCall("setWire", [null]);
+        }
+        else if (event.step == 576 || event.step == 828 || event.step == 1087 || event.step == 1332)
 			PlayState.instance.currentStage?.scriptCall("setWire", [null]);
     }
 

@@ -1,0 +1,22 @@
+{
+	"timeFormat": "ms",
+	"artist": "Pink Lemonade",
+	"charter": "Dipazio",
+	"playData": {
+		"stage": "hexStage",
+		"noteStyle": "funkin",
+		"ratings": {
+			"erect": 4,
+			"nightmare": 6
+		},
+		"album": "hexerectacle",
+		"difficulties": ["erect", "nightmare"],
+		"characters": {"girlfriend": "gf", "opponent": "hex", "player": "bf", "instrumental": "erect"}
+	},
+	"songName": "Dunk Erect",
+	"timeChanges": [
+		{"t": 0, "bpm": 190}
+	],
+	"generatedBy": "Psych Engine v1.0.3 - Chart Editor V-Slice Exporter",
+	"version": "2.2.3"
+}

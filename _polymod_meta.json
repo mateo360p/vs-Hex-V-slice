@@ -1,5 +1,5 @@
 {
-  "title": "vs. Hex - V-Slice Port [v1.1.1]",
+  "title": "vs. Hex - V-Slice Port [v2.0.0]",
   "description": "",
   "author": "Dipazio",
   "contributors": [
@@ -7,9 +7,19 @@
       "name": "Dipazio",
       "role": "Mod porter, coder, etc",
       "url": "https://github.com/mateo360p"
+    },
+    {
+      "name": "Pink Lemonade",
+      "role": "Dunk Erect Song",
+      "url": "https://gamebanana.com/members/1798934"
+    },
+    {
+      "name": "ZachAttack945",
+      "role": "Glitcher Erect Song",
+      "url": "https://youtube.com/@zachatk945"
     }
   ],
   "api_version": "0.8.1",
-  "mod_version": "1.1.1",
+  "mod_version": "2.0.0",
   "license": "Apache-2.0"
 }

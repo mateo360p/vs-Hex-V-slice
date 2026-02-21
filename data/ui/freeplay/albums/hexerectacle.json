@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "name": "HEXERECTACLE ALBUM - VS. HEX ERECT",
+  "artists": [
+    "Pink Lemonade",
+    "ZachAttack945"
+  ],
+  "albumArtAsset": "freeplay/albumRoll/hexerectacle_album",
+  "albumTitleAsset": "freeplay/albumRoll/hexerectacle-text",
+  "albumTitleOffsets": [-50, 0]
+}

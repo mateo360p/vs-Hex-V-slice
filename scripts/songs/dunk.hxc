@@ -3,6 +3,8 @@ import funkin.play.PlayState;
 import funkin.play.song.Song;
 import funkin.play.PlayStatePlaylist;
 import funkin.audio.FunkinSound;
+import funkin.play.notes.ScriptedStrumline;
+import funkin.modding.module.ModuleHandler;
 
 class HexDunkSong extends Song {
     var hasPlayedCutscene:Bool;
@@ -20,8 +22,6 @@ class HexDunkSong extends Song {
 
     function onCreate(event:ScriptEvent):Void {
         super.onCreate(event);
-
-        hasPlayedCutscene = false;
     }
 
     public function onCountdownStart(event:CountdownScriptEvent):Void {

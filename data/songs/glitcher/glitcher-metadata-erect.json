@@ -1,0 +1,22 @@
+{
+	"timeFormat": "ms",
+	"artist": "ZachAttack945",
+	"charter": "Dipazio",
+	"playData": {
+		"stage": "hexStage",
+		"noteStyle": "funkin",
+		"ratings": {
+			"erect": 9,
+			"nightmare": 12
+		},
+		"album": "hexerectacle",
+		"difficulties": ["erect", "nightmare"],
+		"characters": {"girlfriend": "gf-hex-glitcher", "opponent": "hex-glitcher", "player": "bf-hex-glitcher", "instrumental": "erect"}
+	},
+	"songName": "Glitcher Erect",
+	"timeChanges": [
+		{"t": 0, "bpm": 175}
+	],
+	"generatedBy": "Psych Engine v1.0.3 - Chart Editor V-Slice Exporter",
+	"version": "2.2.3"
+}
